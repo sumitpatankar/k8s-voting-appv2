@@ -18,7 +18,7 @@ spec:
         app: demo-voting-app
 
     spec:
-      container: 
+      containers:
       - name: voting-app
         image: dockersamples/examplevotingapp_vote
         ports:
